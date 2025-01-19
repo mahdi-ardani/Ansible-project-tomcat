@@ -1,0 +1,2 @@
+[webservers]
+tomcat-server ansible_host=192.168.72.170 ansible_user=root ansible_ssh_private_key_file=/root/.ssh/id_rsa
