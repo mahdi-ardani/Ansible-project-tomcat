@@ -4,7 +4,7 @@ This is a sample project to install Apache tomcat on a remote ubuntu OS via Ansi
 
 First you need two servers; first as Ansible controller the other one as ansible host.
 
-Since Ansible uses Private Public keys to connect to other servers via SSh; you need to do the following.
+Since Ansible uses Private Public keys to connect to other servers via SSH; you need to do the following.
 
 Enter the command "ssh-keygen" on Ansible controller server
 
