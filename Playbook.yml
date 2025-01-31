@@ -38,7 +38,7 @@
       unarchive:
         src: /tmp/apache-tomcat-9.0.98.tar.gz
         dest: /opt
-        remote_src: yes
+        remote_src: yes    #This actually tells Ansible that the Archive is on the remote host
 
     - name: Set Tomcat directory permissions
       file:
